@@ -1,0 +1,183 @@
+	body{
+		font-family: Verdana,Arial,sans-serif;
+	}
+	#resultTable{
+		text-align: center;
+	}
+	.main-container{
+		min-width:1200px;
+		margin: 0px auto;
+	/* 	border: 1px solid #cccccc; */
+		min-height: 650px;
+	}
+	.main-container div{
+	 float: left;
+	}
+	a{
+		text-decoration: none;
+	}
+	a:VISITED{
+		text-decoration: none;
+	}
+	.columnName td{
+		background: #D3DCE3;
+		color: #0000FF;
+		font-weight: bolder;
+		padding: 20px;
+	}
+	.resultTable{
+		/* border-collapse: collapse; */
+	}
+	#header{
+		/* border: 1px solid #aaaaaa; */
+		height: 100px;
+		width: 100%;
+	}
+	#header ul li{
+		float: left;
+		list-style: none;
+		margin-right: 3px;
+	}
+	#header ul li img{
+		margin-top: 10px;
+	}
+	#header ul li a{
+		border: 1px solid #aaaaaa;
+		padding: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-weight:bold;
+		font-family:sans-serif;
+		background-color: #E5E5E5;
+		border: 1pt solid #D5D5D5;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	#header ul li a:HOVER{
+		background-color: white;
+	}
+	#header ul li a:VISITED{
+		border: 1px solid #aaaaaa;
+		padding: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-weight:bold;
+		font-family:sans-serif;
+		background-color: #E5E5E5;
+		border: 1pt solid #D5D5D5;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	.dark{
+		background: #D5D5D5;
+	}
+	.fieldset {
+		border: 2px solid #cccccc;
+		padding: 30px;
+	}.fieldset legend {
+		border: 2px solid #cccccc;
+		padding:10px;
+	}
+	#overlay{
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		top:0;
+		bottom:0;
+		left:0;
+		right: 0;
+		z-index: 100;
+		opacity: 0.75;
+		background: black;
+		display: none; 
+	}
+	#error_msg{
+		position: fixed;
+		width: 300px;
+		min-height: 200px;
+		z-index: 101;
+		top: 25%;
+		left: 38%;
+		background: white;
+		display: none; 
+		overflow: visible;
+	}
+	#error_msg button{
+		width: 100px;
+		height: 30px;
+	}
+	#leftFrame{
+		width: 250px;
+		min-height: 700px;
+		overflow-x: hidden;
+		background-color: #D0DCE0;
+		position: fixed ;
+		height: 100%;
+	}
+	#rightFrame{
+		min-height: 600px;
+		overflow-x: visible;
+		margin: 0px auto;
+		margin-left: 250px;
+	}
+	.u-line{
+		width: 700px;
+		border-top: 1px solid black;
+		margin-top: 5px;
+		margin-left: 40px;
+	}
+	
+	/* ------------------------------------------ */
+	
+	
+	.main-menu li{
+		float: left;
+		list-style: none;
+		margin-right: 20px;
+	}
+	.dbnames a{
+		width: 150px;
+		color: black;
+	}
+	.logo{
+		height: 90px;
+		margin-left: 10px;
+	}
+	.db-list{
+		list-style-image: url('../images/database.png');
+	}
+	.table-list{
+		max-width: 150px;
+		overflow: hidden;
+		margin-left: 10px;
+		padding: 10px;
+		float: left;
+	}
+	.table-list legend{
+		color: red;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.table-list ul{
+		list-style-image: url('../images/table.png');
+	}
+	/* ----------------------------------------------------- */
+	#restore-status{
+		border: 4px solid lime;
+		width: 300px;
+		padding: 5px;
+		display: none;
+		font-weight: bolder;
+	}
+	#query_response{
+		position: fixed;
+		width: 300px;
+		z-index: 101;
+		top: 25%;
+		left: 38%;
+		background: white;
+		display: none; 
+		overflow: visible;
+		padding: 10px;
+	}
+	
